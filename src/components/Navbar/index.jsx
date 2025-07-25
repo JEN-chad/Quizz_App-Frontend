@@ -16,7 +16,7 @@ export const Navbar = () => {
             {/* Navigation Links */}
             <ul className="flex items-center gap-6  font-medium text-xl">
                 <li><Link to="/" className="hover:text-blue-600">Home</Link></li>
-                <li><Link to="/quizzes" className="hover:text-blue-600">Quizzes</Link></li>
+                <li><Link to="/auth/login" className="hover:text-blue-600">Login</Link></li>
                 <li><Link to="/about" className="hover:text-blue-600">About</Link></li>
             </ul>
         </nav>
